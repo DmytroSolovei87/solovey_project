@@ -46,8 +46,13 @@
   &__item:nth-child(even) {
     @media screen and (min-width: 768px) {
       position: absolute;
-      top: 90px;
+      top: 80px;
       left: 8px;
+    }
+    @media screen and (min-width: 1280px) {
+      position: absolute;
+      top: 130px;
+      left: 190px;
     }
   }
   &__item:nth-child(odd) {
@@ -96,6 +101,10 @@
       width: unset;
       margin-bottom: 22px;
     }
+  }
+  &__row {
+    display: block;
+    text-align: center;
   }
   &__pagination {
     position: relative;
